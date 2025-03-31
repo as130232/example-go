@@ -1,4 +1,4 @@
-# linebot-go
+# example-go
 
 
 
