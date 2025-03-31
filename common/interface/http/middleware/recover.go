@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"runtime/debug"
 
-	"linebot-go/common/infrastructure/consts/errorCode"
+	"example-go/common/infrastructure/consts/errorCode"
 
+	"example-go/common/application/dto"
+	"example-go/common/infrastructure/consts/contextKey"
+	"example-go/common/infrastructure/consts/errorType"
 	"github.com/gin-gonic/gin"
-	"linebot-go/common/application/dto"
-	"linebot-go/common/infrastructure/consts/contextKey"
-	"linebot-go/common/infrastructure/consts/errorType"
 )
 
 func Recover(c *gin.Context) {

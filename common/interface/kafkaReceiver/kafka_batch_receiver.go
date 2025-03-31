@@ -2,13 +2,13 @@ package kafkaReceiver
 
 import (
 	"context"
+	"example-go/common/application/utils"
+	"example-go/common/global"
+	"example-go/common/infrastructure/consts/contextKey"
+	"example-go/common/infrastructure/consts/logKey"
 	"fmt"
 	"github.com/google/uuid"
 	"github.com/segmentio/kafka-go"
-	"linebot-go/common/application/utils"
-	"linebot-go/common/global"
-	"linebot-go/common/infrastructure/consts/contextKey"
-	"linebot-go/common/infrastructure/consts/logKey"
 	"sync"
 	"time"
 )

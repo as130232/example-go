@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"linebot-go/common/global"
+	"example-go/common/global"
 	"strings"
 )
 

@@ -1,15 +1,15 @@
 package router
 
 import (
+	"example-go/common/global"
+	"example-go/common/infrastructure/consts/errorCode"
+	"example-go/common/interface/http/handler"
+	"example-go/common/interface/http/middleware"
 	"github.com/Depado/ginprom"
 	"github.com/gin-contrib/pprof"
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
-	"linebot-go/common/global"
-	"linebot-go/common/infrastructure/consts/errorCode"
-	"linebot-go/common/interface/http/handler"
-	"linebot-go/common/interface/http/middleware"
 )
 
 func InitRouter() *gin.Engine {

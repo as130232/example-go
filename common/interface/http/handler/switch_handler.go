@@ -1,9 +1,9 @@
 package handler
 
 import (
+	"example-go/common/application/dto"
+	"example-go/common/application/service"
 	"github.com/gin-gonic/gin"
-	"linebot-go/common/application/dto"
-	"linebot-go/common/application/service"
 	"net/http"
 	"strconv"
 )

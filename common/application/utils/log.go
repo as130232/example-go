@@ -2,9 +2,9 @@ package utils
 
 import (
 	"encoding/json"
+	"example-go/common/infrastructure/config"
+	"example-go/common/infrastructure/consts/logKey"
 	"fmt"
-	"linebot-go/common/infrastructure/config"
-	"linebot-go/common/infrastructure/consts/logKey"
 	"log"
 	"runtime"
 	"runtime/debug"

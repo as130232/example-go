@@ -1,8 +1,8 @@
 package handler
 
 import (
+	"example-go/common/application/utils"
 	"github.com/gin-gonic/gin"
-	"linebot-go/common/application/utils"
 )
 
 func GetMetrics(c *gin.Context) {

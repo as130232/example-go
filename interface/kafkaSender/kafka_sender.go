@@ -1,7 +1,7 @@
 package kafkaSender
 
 import (
-	commonKafka "linebot-go/common/interface/kafkaSender"
+	commonKafka "example-go/common/interface/kafkaSender"
 )
 
 type KafkaSender struct {

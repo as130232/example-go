@@ -1,9 +1,9 @@
 package job
 
 import (
+	"example-go/cmd"
+	"example-go/common/global"
 	"github.com/robfig/cron/v3"
-	"linebot-go/cmd"
-	"linebot-go/common/global"
 )
 
 func Init(app *cmd.App) *cron.Cron {

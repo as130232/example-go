@@ -1,11 +1,11 @@
 package appConfig
 
 import (
-	"linebot-go/common/application/utils/profile"
-	"linebot-go/common/infrastructure/config"
-	"linebot-go/manifest/config/dev"
-	"linebot-go/manifest/config/local"
-	"linebot-go/manifest/config/prod"
+	"example-go/common/application/utils/profile"
+	"example-go/common/infrastructure/config"
+	"example-go/manifest/config/dev"
+	"example-go/manifest/config/local"
+	"example-go/manifest/config/prod"
 	"os"
 )
 

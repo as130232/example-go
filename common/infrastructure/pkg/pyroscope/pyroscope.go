@@ -5,7 +5,7 @@ import (
 	"github.com/grafana/pyroscope-go"
 	"log"
 
-	"linebot-go/common/infrastructure/config"
+	"example-go/common/infrastructure/config"
 )
 
 var profiler *pyroscope.Profiler

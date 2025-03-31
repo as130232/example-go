@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"linebot-go/common/application/dto"
+	"example-go/common/application/dto"
 )
 
 func GenErrorMsg(statusCode int, msgType, message string) error {

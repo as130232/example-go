@@ -3,17 +3,17 @@ package sqldatabase
 import (
 	"context"
 	"errors"
+	"example-go/common/infrastructure/consts/contextKey"
 	"fmt"
 	"io"
-	"linebot-go/common/infrastructure/consts/contextKey"
 	"log"
 	"os"
 	"time"
 
 	"gorm.io/gorm/logger"
 
+	commonUtils "example-go/common/application/utils"
 	"gorm.io/gorm/utils"
-	commonUtils "linebot-go/common/application/utils"
 )
 
 // ErrRecordNotFound record not found error

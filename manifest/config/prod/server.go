@@ -1,10 +1,10 @@
 package prod
 
 import (
+	"example-go/common/infrastructure/config"
+	"example-go/common/infrastructure/pkg/pyroscope"
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm/logger"
-	"linebot-go/common/infrastructure/config"
-	"linebot-go/common/infrastructure/pkg/pyroscope"
 	"os"
 	"strconv"
 	"time"

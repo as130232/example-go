@@ -1,8 +1,8 @@
 package service
 
 import (
-	"linebot-go/common/global"
-	"linebot-go/common/infrastructure/consts/env"
+	"example-go/common/global"
+	"example-go/common/infrastructure/consts/env"
 	"os"
 	"strings"
 )

@@ -2,9 +2,9 @@ package redis
 
 import (
 	"context"
+	"example-go/common/global"
+	"example-go/common/infrastructure/config"
 	"github.com/redis/go-redis/v9"
-	"linebot-go/common/global"
-	"linebot-go/common/infrastructure/config"
 	"time"
 )
 

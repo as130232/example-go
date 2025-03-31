@@ -8,14 +8,14 @@ import (
 	"strings"
 	"time"
 
+	"example-go/common/application/utils"
+	"example-go/common/global"
+	"example-go/common/infrastructure/consts/contextKey"
+	"example-go/common/infrastructure/consts/customHeaderKey"
+	"example-go/common/infrastructure/consts/logKey"
 	"github.com/gin-gonic/gin"
 	"github.com/go-http-utils/headers"
 	"github.com/google/uuid"
-	"linebot-go/common/application/utils"
-	"linebot-go/common/global"
-	"linebot-go/common/infrastructure/consts/contextKey"
-	"linebot-go/common/infrastructure/consts/customHeaderKey"
-	"linebot-go/common/infrastructure/consts/logKey"
 )
 
 const MaxPrintBodyLen = 204800

@@ -3,7 +3,7 @@ package errorCode
 import (
 	"log"
 
-	"linebot-go/common/infrastructure/consts/errorType"
+	"example-go/common/infrastructure/consts/errorType"
 )
 
 var ErrorCodeMap = map[string]int{

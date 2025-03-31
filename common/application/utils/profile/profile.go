@@ -1,8 +1,8 @@
 package profile
 
 import (
-	"linebot-go/common/infrastructure/config"
-	"linebot-go/common/infrastructure/consts/profile"
+	"example-go/common/infrastructure/config"
+	"example-go/common/infrastructure/consts/profile"
 	"runtime"
 	"strconv"
 )

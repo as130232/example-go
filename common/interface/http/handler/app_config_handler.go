@@ -3,9 +3,9 @@ package handler
 import (
 	"net/http"
 
-	"linebot-go/common/application/utils"
+	"example-go/common/application/utils"
 
-	"linebot-go/common/global"
+	"example-go/common/global"
 
 	"github.com/gin-gonic/gin"
 )

@@ -1,8 +1,8 @@
 package utils
 
 import (
+	"example-go/common/global"
 	"fmt"
-	"linebot-go/common/global"
 )
 
 func SendTelegramMessage(message string) {

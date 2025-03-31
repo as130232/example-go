@@ -2,21 +2,21 @@ package main
 
 import (
 	"context"
+	"example-go/cmd"
+	"example-go/common/application/utils"
+	"example-go/common/global"
+	"example-go/common/infrastructure/consts/contextKey"
+	"example-go/common/infrastructure/pkg/pyroscope"
+	"example-go/common/infrastructure/pkg/redis"
+	"example-go/common/infrastructure/pkg/sqldatabase"
+	"example-go/common/interface/executor"
+	"example-go/common/interface/telegram"
+	appConfig "example-go/infrastructure/config"
+	"example-go/interface/http/router"
+	"example-go/interface/job"
+	"example-go/interface/kafkaReceiver"
 	"flag"
 	"github.com/google/uuid"
-	"linebot-go/cmd"
-	"linebot-go/common/application/utils"
-	"linebot-go/common/global"
-	"linebot-go/common/infrastructure/consts/contextKey"
-	"linebot-go/common/infrastructure/pkg/pyroscope"
-	"linebot-go/common/infrastructure/pkg/redis"
-	"linebot-go/common/infrastructure/pkg/sqldatabase"
-	"linebot-go/common/interface/executor"
-	"linebot-go/common/interface/telegram"
-	appConfig "linebot-go/infrastructure/config"
-	"linebot-go/interface/http/router"
-	"linebot-go/interface/job"
-	"linebot-go/interface/kafkaReceiver"
 	"log"
 	"net/http"
 	"os"
@@ -39,7 +39,7 @@ func main() {
 	}()
 
 	saveVersion()
-	global.AppName = "linebot-go"
+	global.AppName = "example-go"
 	global.ServerConfig = appConfig.NewServerConfig(global.AppName)
 	global.AppConfig = appConfig.NewAppConfig()
 	global.TelegramBot = telegram.NewBot(global.ServerConfig.AppEnv, nil)

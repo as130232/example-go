@@ -1,9 +1,9 @@
 package rabbitmqReceiver
 
 import (
-	"linebot-go/cmd"
-	"linebot-go/common/infrastructure/config"
-	"linebot-go/common/interface/rabbitmqReceiver"
+	"example-go/cmd"
+	"example-go/common/infrastructure/config"
+	"example-go/common/interface/rabbitmqReceiver"
 )
 
 type RabbitMqReceiver struct {

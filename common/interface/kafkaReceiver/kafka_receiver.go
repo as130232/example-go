@@ -2,15 +2,15 @@ package kafkaReceiver
 
 import (
 	"context"
+	"example-go/common/infrastructure/consts/contextKey"
 	"fmt"
 	"github.com/segmentio/kafka-go"
-	"linebot-go/common/infrastructure/consts/contextKey"
 	"time"
 
+	"example-go/common/application/utils"
+	"example-go/common/global"
+	"example-go/common/infrastructure/consts/logKey"
 	"github.com/google/uuid"
-	"linebot-go/common/application/utils"
-	"linebot-go/common/global"
-	"linebot-go/common/infrastructure/consts/logKey"
 )
 
 type IKafkaReceiver interface {

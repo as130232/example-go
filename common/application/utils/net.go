@@ -1,10 +1,10 @@
 package utils
 
 import (
+	"example-go/common/global"
+	"example-go/common/infrastructure/consts/contextKey"
+	"example-go/common/infrastructure/consts/errorType"
 	"fmt"
-	"linebot-go/common/global"
-	"linebot-go/common/infrastructure/consts/contextKey"
-	"linebot-go/common/infrastructure/consts/errorType"
 	"net"
 	"net/http"
 	"os"

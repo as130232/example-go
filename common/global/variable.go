@@ -2,10 +2,10 @@ package global
 
 import (
 	"database/sql"
+	"example-go/common/infrastructure/config"
+	"example-go/common/interface/telegram"
 	"github.com/redis/go-redis/v9"
 	"gorm.io/gorm"
-	"linebot-go/common/infrastructure/config"
-	"linebot-go/common/interface/telegram"
 )
 
 var (

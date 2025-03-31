@@ -4,18 +4,18 @@ import (
 	"context"
 	"database/sql"
 	"encoding/json"
+	"example-go/common/global"
 	"fmt"
-	"linebot-go/common/global"
 	"log"
 	"os"
 	"strings"
 	"time"
 
+	"example-go/common/infrastructure/config"
 	mysqlDriver "github.com/go-sql-driver/mysql"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
-	"linebot-go/common/infrastructure/config"
 )
 
 func SetupDB(config *config.ServerConfig) {

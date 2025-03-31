@@ -1,8 +1,8 @@
 package dto
 
 import (
+	"example-go/common/infrastructure/consts/contextKey"
 	"github.com/gin-gonic/gin"
-	"linebot-go/common/infrastructure/consts/contextKey"
 )
 
 type Response struct {

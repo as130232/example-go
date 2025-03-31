@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	telegramConst "linebot-go/common/infrastructure/consts/telegram"
+	telegramConst "example-go/common/infrastructure/consts/telegram"
 
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )

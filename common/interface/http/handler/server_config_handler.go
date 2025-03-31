@@ -3,10 +3,10 @@ package handler
 import (
 	"net/http"
 
-	"linebot-go/common/global"
+	"example-go/common/global"
 
+	"example-go/common/application/utils"
 	"github.com/gin-gonic/gin"
-	"linebot-go/common/application/utils"
 )
 
 func GetServerConfig(c *gin.Context) {
